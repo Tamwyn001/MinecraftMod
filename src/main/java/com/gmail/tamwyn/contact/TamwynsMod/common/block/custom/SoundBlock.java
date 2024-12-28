@@ -19,7 +19,7 @@ public class SoundBlock extends Block {
     public void stepOn(Level level, BlockPos pos, BlockState state, net.minecraft.world.entity.Entity entity) {
         //this is properly fired
         System.out.println("Entity stepped on block!");
-        super.stepOn(level, pos, state, entity);s
+        super.stepOn(level, pos, state, entity);
     }
     // this is not found in the super..
     // @Override
