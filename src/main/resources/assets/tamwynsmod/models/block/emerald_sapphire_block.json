@@ -1,0 +1,6 @@
+{
+    "parent" :"minecraft:block/cube_all",
+    "textures": {
+        "all": "tamwynsmod:block/emerald_sapphire_block"
+    }
+}

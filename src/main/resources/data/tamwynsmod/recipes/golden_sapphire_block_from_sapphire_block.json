@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "tamwynsmod:sapphire_block"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "result":{
+        "id": "tamwynsmod:golden_sapphire_block",
+        "count": 1
+    }
+}

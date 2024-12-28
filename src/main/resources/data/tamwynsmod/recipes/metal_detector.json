@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " GA",
+        " SG",
+        "S  "
+    ],
+    "key": {
+        "S": {
+            "item": "stick"
+        },
+        "G": {
+            "item": "gold_ingot"
+        },
+        "A": {
+            "item": "tamwynsmod:sapphire"
+        }
+    },
+    "result":{
+        "id": "tamwynsmod:metal_detector",
+        "count": 1
+    }
+}
