@@ -3,6 +3,7 @@ package com.gmail.tamwyn.contact.TamwynsMod.common.block;
 import java.util.function.Supplier;
 
 import com.gmail.tamwyn.contact.TamwynsMod.common.TamwynsMod;
+import com.gmail.tamwyn.contact.TamwynsMod.common.block.custom.SoundBlock;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;

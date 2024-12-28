@@ -1,4 +1,4 @@
-package com.gmail.tamwyn.contact.TamwynsMod.common.block;
+package com.gmail.tamwyn.contact.TamwynsMod.common.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
@@ -17,9 +17,11 @@ public class SoundBlock extends Block {
     }
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, net.minecraft.world.entity.Entity entity) {
+        //this is properly fired
         System.out.println("Entity stepped on block!");
-        super.stepOn(level, pos, state, entity);
+        super.stepOn(level, pos, state, entity);s
     }
+    // this is not found in the super..
     // @Override
     // public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos,
     //                              Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
