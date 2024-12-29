@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "S": {
+      "item": "tamwynsmod:sapphire"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QSQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tamwynsmod:sound_block"
+  }
+}

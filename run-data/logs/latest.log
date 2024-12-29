@@ -1,0 +1,27 @@
+[29déc.2024 23:55:51.478] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 16, --assetsDir, C:\Users\Tamwyn\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, tamwynsmod, --all, --output, C:\Users\Tamwyn\Documents\Projets Perso\ModeMinecraft\Projet\app\src\generated\resources, --existing, C:\Users\Tamwyn\Documents\Projets Perso\ModeMinecraft\Projet\app\src\main\resources]
+[29déc.2024 23:55:51.482] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[29déc.2024 23:55:51.484] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[29déc.2024 23:55:51.651] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[29déc.2024 23:55:51.854] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///C:/Users/Tamwyn/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[29déc.2024 23:55:52.931] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[29déc.2024 23:55:53.778] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Tamwyn\.gradle\caches\forge_gradle\assets, --assetIndex, 16, --mod, tamwynsmod, --all, --output, C:\Users\Tamwyn\Documents\Projets Perso\ModeMinecraft\Projet\app\src\generated\resources, --existing, C:\Users\Tamwyn\Documents\Projets Perso\ModeMinecraft\Projet\app\src\main\resources]
+[29déc.2024 23:55:59.376] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 50.1.0, for MC 1.20.6 with MCP 20240429.135109
+[29déc.2024 23:55:59.380] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v50.1.0 Initialized
+[29déc.2024 23:55:59.408] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[29déc.2024 23:56:00.127] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [tamwynsmod]
+[29déc.2024 23:56:00.195] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Tamwyn/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[29déc.2024 23:56:00.196] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Tamwyn/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6/forge-1.20.6-50.1.0_mapped_parchment_2024.06.16-1.20.6.jar%230!/data/.mcassetsroot' uses unexpected schema
+[29déc.2024 23:56:00.344] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[29déc.2024 23:56:00.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 248 ms
+[29déc.2024 23:56:00.593] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[29déc.2024 23:56:00.618] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 25 ms
+[29déc.2024 23:56:00.618] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: tamwynsmod
+[29déc.2024 23:56:00.757] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: tamwynsmod finished after 137 ms
+[29déc.2024 23:56:00.757] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: tamwynsmod
+[29déc.2024 23:56:00.763] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: tamwynsmod finished after 6 ms
+[29déc.2024 23:56:00.764] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id tamwynsmod
+[29déc.2024 23:56:00.785] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id tamwynsmod finished after 21 ms
+[29déc.2024 23:56:00.785] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id tamwynsmod
+[29déc.2024 23:56:00.790] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id tamwynsmod finished after 3 ms
+[29déc.2024 23:56:00.790] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 446 ms
+[29déc.2024 23:56:00.805] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 49, old count: 0, new count: 50, removed stale: 0, written: 49

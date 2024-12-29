@@ -28,6 +28,9 @@ public class ModCreativeModTab {
                 pOutput.accept(ModBlocks.EMERALD_SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                 pOutput.accept(ModItems.METAL_DETECTOR.get());
+                pOutput.accept(ModItems.PASSION_FRUIT.get());
+                pOutput.accept(ModItems.FIRE_FLOWER.get());
+
 
                 //vanillia item dont requiere a get() method
                 //pOutput.accept(Items.DIAMOND);

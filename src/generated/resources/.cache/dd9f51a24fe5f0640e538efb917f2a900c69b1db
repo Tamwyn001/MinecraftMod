@@ -1,0 +1,5 @@
+// 1.20.6	2024-12-29T23:56:00.7938037	Tags for minecraft:block mod id tamwynsmod
+f98153b98f3b2b03d123b1b5157fae33ee44bbb0 data/minecraft/tags/blocks/mineable/pickaxe.json
+056e926f74798706de9bbcdd2a7277dce6a635f0 data/minecraft/tags/blocks/needs_diamond_tool.json
+c6f0d460f7cb545a779d2e1109b17cddf1abf591 data/minecraft/tags/blocks/needs_iron_tool.json
+51eb43d711df8ee8ea8e4cdfc8efc372dd726c08 data/tamwynsmod/tags/blocks/metal_detector_valuables.json

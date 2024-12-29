@@ -2,9 +2,19 @@
     "item.tamwynsmod.sapphire": "Sapphire",
     "item.tamwynsmod.raw_sapphire": "Raw Sapphire",
     "item.tamwynsmod.metal_detector": "Metal Detector",
+    "item.tamwynsmod.passion_fruit": "Passion Fruit",
+    "item.tamwynsmod.fire_flower": "Fire Flower",
+
+    "item.tamwynsmod.metal_detector.tooltip" : "Use it on the ground to detect ore!",
+    "item.tamwynsmod.fire_flower.tooltip" : "This fuel can be grown in a field, providing a good alternative to coal.",
+
     "creative_tab.tamwyn_tab": "Tamwyn's Mod",
+
     "block.tamwynsmod.sapphire_block": "Block of Sapphire",
     "block.tamwynsmod.raw_sapphire_ore": "Raw Sapphire Ore",
     "block.tamwynsmod.golden_sapphire_block": "Golden Sapphire Block",
-    "block.tamwynsmod.emerald_sapphire_block": "Emerald Sapphire Block"
+    "block.tamwynsmod.emerald_sapphire_block": "Emerald Sapphire Block",
+    "block.tamwynsmod.sound_block": "Sound Block",
+
+    "block.tamwynsmod.sound_block.tooltip" : "Plays a sound when cliced."
 }

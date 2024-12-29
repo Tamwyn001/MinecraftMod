@@ -35,16 +35,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> RAW_SAPPHIRE_ORE = registerBlock("raw_sapphire_ore", 
             () -> new DropExperienceBlock(UniformInt.of(2, 5), BlockBehaviour.Properties.ofFullCopy(Blocks.STONE)
                 .strength(2.0F).requiresCorrectToolForDrops()));
-    public static final RegistryObject<SoundBlock> SOUND_BLOCK = registerBlock("sound_block", 
-    () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)
-        .sound(SoundType.AMETHYST)));
-            
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block", 
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK)
+                .sound(SoundType.BAMBOO)));
+                    
 
     public static final RegistryObject<Block> GOLDEN_SAPPHIRE_BLOCK = registerBlock("golden_sapphire_block", 
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.GOLD_BLOCK)));
 
     public static final RegistryObject<Block> EMERALD_SAPPHIRE_BLOCK = registerBlock("emerald_sapphire_block", 
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.EMERALD_BLOCK)));
+
+    //* .noLootTable() is used to prevent the game from looking for a loot table for the block
+    //* OR we can use DropSelf in the ModBlockLootTables passing the block to be ignored as an argument.
     
 
     //helper to associate a block with an item : register (and returns) the item associated with the block

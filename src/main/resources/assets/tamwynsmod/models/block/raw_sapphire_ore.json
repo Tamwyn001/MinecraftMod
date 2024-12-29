@@ -1,6 +1,0 @@
-{
-    "parent" :"minecraft:block/cube_all",
-    "textures": {
-        "all": "tamwynsmod:block/raw_sapphire_ore"
-    }
-}
