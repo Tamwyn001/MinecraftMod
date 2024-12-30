@@ -22,14 +22,27 @@ public class ModCreativeModTab {
             .displayItems((pParameter, pOutput) -> {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                pOutput.accept(ModItems.METAL_DETECTOR.get());
+                pOutput.accept(ModItems.PASSION_FRUIT.get());
+                pOutput.accept(ModItems.FIRE_FLOWER.get());
+
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.RAW_SAPPHIRE_ORE.get());
                 pOutput.accept(ModBlocks.GOLDEN_SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.EMERALD_SAPPHIRE_BLOCK.get());
                 pOutput.accept(ModBlocks.SOUND_BLOCK.get());
-                pOutput.accept(ModItems.METAL_DETECTOR.get());
-                pOutput.accept(ModItems.PASSION_FRUIT.get());
-                pOutput.accept(ModItems.FIRE_FLOWER.get());
+                
+                pOutput.accept(ModBlocks.SAPPHIRE_BUTTON.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_FENCE.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_WALL.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_STAIRS.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_SLAB.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_DOOR.get());
+                pOutput.accept(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+
+
 
 
                 //vanillia item dont requiere a get() method

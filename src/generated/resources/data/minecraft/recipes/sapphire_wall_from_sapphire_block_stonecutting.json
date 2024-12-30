@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "tamwynsmod:sapphire_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "tamwynsmod:sapphire_wall"
+  }
+}

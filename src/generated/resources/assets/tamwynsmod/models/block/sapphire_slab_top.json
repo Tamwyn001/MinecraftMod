@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tamwynsmod:block/sapphire_block",
+    "side": "tamwynsmod:block/sapphire_block",
+    "top": "tamwynsmod:block/sapphire_block"
+  }
+}

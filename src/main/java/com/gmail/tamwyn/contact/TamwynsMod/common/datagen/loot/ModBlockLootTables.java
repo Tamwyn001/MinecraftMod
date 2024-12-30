@@ -30,6 +30,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.EMERALD_SAPPHIRE_BLOCK.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
 
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_STAIRS.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_WALL.get());
+        this.dropSelf(ModBlocks.SAPPHIRE_BUTTON.get());
+
+        this.add(ModBlocks.SAPPHIRE_SLAB.get(),
+            block -> createSlabItemTable(ModBlocks.SAPPHIRE_SLAB.get()));
+        this.add(ModBlocks.SAPPHIRE_DOOR.get(),
+            block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
+
         this.add(ModBlocks.RAW_SAPPHIRE_ORE.get(), 
             block -> createCopperLikeOreDrop(block, ModItems.RAW_SAPPHIRE.get().asItem()));
 

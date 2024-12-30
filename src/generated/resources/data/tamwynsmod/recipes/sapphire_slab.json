@@ -3,16 +3,14 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "tamwynsmod:sapphire"
+      "item": "tamwynsmod:sapphire_block"
     }
   },
   "pattern": [
-    "###",
-    "###",
     "###"
   ],
   "result": {
-    "count": 1,
-    "id": "tamwynsmod:sapphire_block"
+    "count": 6,
+    "id": "tamwynsmod:sapphire_slab"
   }
 }

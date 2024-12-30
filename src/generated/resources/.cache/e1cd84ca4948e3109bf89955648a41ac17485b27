@@ -1,6 +1,15 @@
-// 1.20.6	2024-12-29T23:56:00.7911445	Item Models: tamwynsmod
+// 1.20.6	2024-12-30T12:25:53.6590726	Item Models: tamwynsmod
 675657701dfa54c47288484842eb88507bb12afe assets/tamwynsmod/models/item/fire_flower.json
 de460d1fd98fd83838a3ce7e0ba99396b267909b assets/tamwynsmod/models/item/metal_detector.json
 b07e06d2e33f3d732d105c1b16596a777b538075 assets/tamwynsmod/models/item/passion_fruit.json
 b538333d933a92794c134cac4a16d72aee38be2d assets/tamwynsmod/models/item/raw_sapphire.json
 6566ab77ff234b102cf42ff426fc6324fecc45b4 assets/tamwynsmod/models/item/sapphire.json
+fa4d33e832f863ce39bd717dc197b778d88f5fbd assets/tamwynsmod/models/item/sapphire_button.json
+fdaa59d3b069fcb00864eff75e369e307ad497d3 assets/tamwynsmod/models/item/sapphire_door.json
+1ae479af1c7dd383fcaa99761bfb901146e8a5e6 assets/tamwynsmod/models/item/sapphire_fence.json
+fdae05aab7344b4cb1130646ac72def712ae35fa assets/tamwynsmod/models/item/sapphire_fence_gate.json
+5db7e4bca48459c2778dc947894f807931caaf26 assets/tamwynsmod/models/item/sapphire_pressure_plate.json
+690f0b67fe5db7c8b775c1e20dd01d228ce95315 assets/tamwynsmod/models/item/sapphire_slab.json
+29cd53360050c346c12f1d06b7fe142c466b084c assets/tamwynsmod/models/item/sapphire_stairs.json
+938b2c59c1b59ca5f10f2312230597479923d7c8 assets/tamwynsmod/models/item/sapphire_trapdoor.json
+9e5ae7c21db724843e7d71d6ee6979a0b5ed9c68 assets/tamwynsmod/models/item/sapphire_wall.json

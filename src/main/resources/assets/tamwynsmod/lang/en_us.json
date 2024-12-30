@@ -6,7 +6,7 @@
     "item.tamwynsmod.fire_flower": "Fire Flower",
 
     "item.tamwynsmod.metal_detector.tooltip" : "Use it on the ground to detect ore!",
-    "item.tamwynsmod.fire_flower.tooltip" : "This fuel can be grown in a field, providing a good alternative to coal.",
+    "item.tamwynsmod.fire_flower.tooltip" : "This fuel can be grown in a field,\nproviding a good alternative to coal.",
 
     "creative_tab.tamwyn_tab": "Tamwyn's Mod",
 
@@ -15,6 +15,18 @@
     "block.tamwynsmod.golden_sapphire_block": "Golden Sapphire Block",
     "block.tamwynsmod.emerald_sapphire_block": "Emerald Sapphire Block",
     "block.tamwynsmod.sound_block": "Sound Block",
+
+    "block.tamwynsmod.sapphire_stairs": "Sapphire Stairs",
+    "block.tamwynsmod.sapphire_slab": "Sapphire Slab",
+    "block.tamwynsmod.sapphire_wall": "Sapphire Wall",
+    "block.tamwynsmod.sapphire_fence": "Sapphire Fence",
+    "block.tamwynsmod.sapphire_fence_gate": "Sapphire Fence Gate",
+    "block.tamwynsmod.sapphire_button": "Sapphire Button",
+    "block.tamwynsmod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+    "block.tamwynsmod.sapphire_door": "Sapphire Door",
+    "block.tamwynsmod.sapphire_trapdoor": "Sapphire Trapdoor",
+    
+
 
     "block.tamwynsmod.sound_block.tooltip" : "Plays a sound when cliced."
 }

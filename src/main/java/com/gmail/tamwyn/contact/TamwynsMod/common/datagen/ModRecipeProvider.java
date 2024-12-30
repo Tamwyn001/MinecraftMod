@@ -17,12 +17,14 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.BlastingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.SmeltingRecipe;
+import net.minecraft.world.item.crafting.StonecutterRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -46,14 +48,58 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreBlasting(pConsumer, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 2.7F, 100, "sapphire");
         oreSmelting(pConsumer, SAPPHIRE_SMELTABLES, RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 2.7F, 300, "sapphire");
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
-            .pattern("###")
-            .pattern("###")
-            .pattern("###")
-            .define('#', ModItems.SAPPHIRE.get())
-            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+        stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_SLAB.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 2 );
+        stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_STAIRS.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 1 );
+        stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_WALL.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 1 );
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE.get())
+            .pattern("#S#")
+            .pattern("#S#")
+            .define('#', ModBlocks.SAPPHIRE_BLOCK.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
             .save(pConsumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE_GATE.get())
+            .pattern("#S#")
+            .pattern("#S#")
+            .define('S', ModBlocks.SAPPHIRE_BLOCK.get())
+            .define('#', Items.STICK)
+            .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+            .save(pConsumer);
+        
+        
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_WALL.get())
+            .pattern("###")
+            .pattern("###")
+            .define('#', ModBlocks.SAPPHIRE_BLOCK.get())
+            .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+            .save(pConsumer);
+        
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_STAIRS.get())
+            .pattern("#  ")
+            .pattern("## ")
+            .pattern("###")
+            .define('#', ModBlocks.SAPPHIRE_BLOCK.get())
+            .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+            .save(pConsumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_DOOR.get())
+            .pattern("##")
+            .pattern("##")
+            .pattern("##")
+            .define('#', ModBlocks.SAPPHIRE_BLOCK.get())
+            .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+            .save(pConsumer);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_SLAB.get(), 6)
+            .pattern("###")
+            .define('#', ModBlocks.SAPPHIRE_BLOCK.get())
+            .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
+            .save(pConsumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.METAL_DETECTOR.get())
             .pattern(" GP")
@@ -94,6 +140,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
             .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
             .save(pConsumer);
+
+
+    
     }
 
     //oreCooking dosnt allow to use tamwynsmod:... as a namespace so we need to modify it.

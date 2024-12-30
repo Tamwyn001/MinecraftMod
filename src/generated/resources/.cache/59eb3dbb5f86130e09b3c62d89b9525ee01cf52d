@@ -1,6 +1,15 @@
-// 1.20.6	2024-12-29T23:56:00.7944837	Loot Tables
+// 1.20.6	2024-12-30T12:25:53.6620959	Loot Tables
 0ce11eb3591b49aefb401539a84752ce598a711a data/tamwynsmod/loot_tables/blocks/emerald_sapphire_block.json
 b4bfa0852385d3d008f9fd9fec1eee35c4df4380 data/tamwynsmod/loot_tables/blocks/golden_sapphire_block.json
-cedb9a19afbfb91930280cdc61c21018682bd51d data/tamwynsmod/loot_tables/blocks/raw_sapphire_ore.json
+5c83eec1fb204d54c3bc04f2e00cedf955dfaec4 data/tamwynsmod/loot_tables/blocks/raw_sapphire_ore.json
 f10b6d7b52986b1bd931a4d53b111aa37f70bcbd data/tamwynsmod/loot_tables/blocks/sapphire_block.json
+1e8ca94992b43b4496f41db3d62074b38a803b06 data/tamwynsmod/loot_tables/blocks/sapphire_button.json
+7a0ade7cefe856efaf43c80552fd66a9bd122e7c data/tamwynsmod/loot_tables/blocks/sapphire_door.json
+97c4ad8023a2edfdc78fdc59919d6688868c4ed0 data/tamwynsmod/loot_tables/blocks/sapphire_fence.json
+f2a5031256da5ceaade85c2e35dedc675ada26ac data/tamwynsmod/loot_tables/blocks/sapphire_fence_gate.json
+a5d24877651305c7b818265ceb835b4a1c47e235 data/tamwynsmod/loot_tables/blocks/sapphire_pressure_plate.json
+c588a974d35f45c159ee0fb6ba3022746f42cc8a data/tamwynsmod/loot_tables/blocks/sapphire_slab.json
+bcc8f44d23ba4ea1f70ff427471cb8300ff155d1 data/tamwynsmod/loot_tables/blocks/sapphire_stairs.json
+68742b7b3c37826e3837ce25b10ab31f0566b9e8 data/tamwynsmod/loot_tables/blocks/sapphire_trapdoor.json
+2fbc0e41b00d4306ea1eacebfef4f23460b4595e data/tamwynsmod/loot_tables/blocks/sapphire_wall.json
 45ba3672510dacade1fa9ab72e62cf8997ed28fb data/tamwynsmod/loot_tables/blocks/sound_block.json
