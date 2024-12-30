@@ -27,6 +27,10 @@ public class ModItems {
     public static final RegistryObject<Item> PASSION_FRUIT = ITEMS.register("passion_fruit",
     () -> new Item(new Item.Properties().food(ModFoods.PASSION_FRUIT)));
 
+    public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
+    () -> new Item(new Item.Properties().stacksTo(1)));
+
+
     public static final RegistryObject<Item> FIRE_FLOWER = ITEMS.register("fire_flower",
     () -> new FuelItem(new Item.Properties(), 1300, "item.tamwynsmod.fire_flower.tooltip")); // 65 seconds, charcoal is 80 seconds
 

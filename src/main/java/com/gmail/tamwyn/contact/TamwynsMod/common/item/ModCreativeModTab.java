@@ -23,6 +23,7 @@ public class ModCreativeModTab {
                 pOutput.accept(ModItems.SAPPHIRE.get());
                 pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                 pOutput.accept(ModItems.METAL_DETECTOR.get());
+                pOutput.accept(ModItems.SAPPHIRE_STAFF.get());
                 pOutput.accept(ModItems.PASSION_FRUIT.get());
                 pOutput.accept(ModItems.FIRE_FLOWER.get());
 

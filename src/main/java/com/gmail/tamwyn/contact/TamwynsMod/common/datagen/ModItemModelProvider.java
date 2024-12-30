@@ -23,10 +23,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.RAW_SAPPHIRE);
         simpleItem(ModItems.SAPPHIRE);
-        simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.PASSION_FRUIT);
         simpleItem(ModItems.FIRE_FLOWER);
-
+        // simpleItem(ModItems.METAL_DETECTOR);
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
         fenceInventory("sapphire_fence", modLoc("block/sapphire_block"));
@@ -47,25 +46,6 @@ public class ModItemModelProvider extends ItemModelProvider {
                  + item.getId().getPath()));
     }
 
-    // public void trapdoorItem(RegistryObject<Block> block) {
-    //     this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
-    //             modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath() + "_bottom"));
-    // }
-
-    // public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
-    //     this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
-    //             .texture("texture",  new ResourceLocation(TamwynsMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
-    // }
-
-    // public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
-    //     this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
-    //             .texture("texture",  new ResourceLocation(TamwynsMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
-    // }
-
-    // public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
-    //     this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
-    //             .texture("wall",  new ResourceLocation(TamwynsMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
-    // }
 
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),

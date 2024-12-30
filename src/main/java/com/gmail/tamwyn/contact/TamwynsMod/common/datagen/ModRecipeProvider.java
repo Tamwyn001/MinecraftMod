@@ -17,14 +17,12 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.BlastingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.SmeltingRecipe;
-import net.minecraft.world.item.crafting.StonecutterRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -51,6 +49,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_SLAB.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 2 );
         stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_STAIRS.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 1 );
         stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_WALL.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 1 );
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_STAFF.get())
+            .pattern(" # ")
+            .pattern(" S ")
+            .define('#', ModItems.SAPPHIRE.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE.get())
             .pattern("#S#")

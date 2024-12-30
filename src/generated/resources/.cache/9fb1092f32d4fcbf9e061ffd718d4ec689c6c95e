@@ -1,4 +1,4 @@
-// 1.20.6	2024-12-30T13:06:45.1948366	Recipes
+// 1.20.6	2024-12-30T23:32:25.3506641	Recipes
 953fa2307bda4525b93a6d8dc87de05a0717d92e data/minecraft/advancements/recipes/misc/sapphire_slab_from_sapphire_block_stonecutting.json
 573f3d0a37a8e291510300c4d7bddd84738a3ae1 data/minecraft/advancements/recipes/misc/sapphire_stairs_from_sapphire_block_stonecutting.json
 914320a0bb6d02b751bb9e0cffbd94bc294ba8c2 data/minecraft/advancements/recipes/misc/sapphire_wall_from_sapphire_block_stonecutting.json
@@ -17,6 +17,7 @@ d4232cbdb1816f8ea5ca570f50b5d089b44d43bd data/tamwynsmod/advancements/recipes/mi
 cd1cc24f42137381a22d66931d5353fd03a74334 data/tamwynsmod/advancements/recipes/misc/sapphire_from_smelting_raw_sapphire.json
 edb1ec546d9a00965655622ccda69664097e36e8 data/tamwynsmod/advancements/recipes/misc/sapphire_from_smelting_raw_sapphire_ore.json
 608a5fe420dd99e3544db6bd036cc455b84945b4 data/tamwynsmod/advancements/recipes/misc/sapphire_slab.json
+a164ae58ac6cc214ad2fc698a130efcdd3c5d553 data/tamwynsmod/advancements/recipes/misc/sapphire_staff.json
 d45fa75088b9809745e3d6f4213ada856fe03691 data/tamwynsmod/advancements/recipes/misc/sapphire_stairs.json
 7bea6772dd754e1da84d344c5b9ee5c069dc7a7c data/tamwynsmod/advancements/recipes/misc/sapphire_wall.json
 840694ee199ef05da0055958943e196afca3ea50 data/tamwynsmod/advancements/recipes/misc/sound_block.json
@@ -32,6 +33,7 @@ e9972bc288b87b75966e3b0da62301cbe2959ce5 data/tamwynsmod/recipes/sapphire_from_b
 d85e69b69cebba2f6a92099ffee3ca9de9eb31dd data/tamwynsmod/recipes/sapphire_from_smelting_raw_sapphire.json
 beab66f86d9bfd84891e6c02ab497bfe8b0a88c3 data/tamwynsmod/recipes/sapphire_from_smelting_raw_sapphire_ore.json
 39101d65dc5b7e5e0d9266c0672ca0527362391c data/tamwynsmod/recipes/sapphire_slab.json
+4623fdb20a3ec79db9d5515c6b513827c886b510 data/tamwynsmod/recipes/sapphire_staff.json
 30eaf822e2f1383050995b41b0da5b9c118033d8 data/tamwynsmod/recipes/sapphire_stairs.json
 65e30a1c44b88aa6d57dee622c7ef78313867e09 data/tamwynsmod/recipes/sapphire_wall.json
 bc0594927abe45bc3db5acaa1ee397ce0dc70c16 data/tamwynsmod/recipes/sound_block.json
