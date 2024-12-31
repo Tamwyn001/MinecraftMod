@@ -3,8 +3,14 @@ package com.gmail.tamwyn.contact.TamwynsMod.common.item;
 import com.gmail.tamwyn.contact.TamwynsMod.common.TamwynsMod;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.FuelItem;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.MetalDetectorItem;
+import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.ModToolTier;
 
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -29,6 +35,22 @@ public class ModItems {
 
     public static final RegistryObject<Item> SAPPHIRE_STAFF = ITEMS.register("sapphire_staff",
     () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
+    () -> new SwordItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(SwordItem.createAttributes(ModToolTier.SAPPHIRE, 15, -2.4F))));
+
+    public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
+    () -> new PickaxeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(PickaxeItem.createAttributes(ModToolTier.SAPPHIRE, 7, -2.4F))));
+
+    public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
+    () -> new ShovelItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(ShovelItem.createAttributes(ModToolTier.SAPPHIRE, 6, -2.4F))));
+
+    public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
+    () -> new HoeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTier.SAPPHIRE, 10, -5.4F))));
+
+    public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
+    () -> new AxeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTier.SAPPHIRE, 20, -1.4F))));
+
 
 
     public static final RegistryObject<Item> FIRE_FLOWER = ITEMS.register("fire_flower",

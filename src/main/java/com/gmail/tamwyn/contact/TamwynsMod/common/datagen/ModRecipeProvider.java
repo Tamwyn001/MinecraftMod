@@ -50,13 +50,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_STAIRS.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 1 );
         stonecutterResultFromBase(pConsumer,RecipeCategory.MISC, ModBlocks.SAPPHIRE_WALL.get() ,ModBlocks.SAPPHIRE_BLOCK.get(), 1 );
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_STAFF.get())
-            .pattern(" # ")
-            .pattern(" S ")
-            .define('#', ModItems.SAPPHIRE.get())
-            .define('S', Items.STICK)
-            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
-            .save(pConsumer);
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_FENCE.get())
             .pattern("#S#")

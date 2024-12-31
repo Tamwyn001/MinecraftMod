@@ -51,6 +51,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
         .add(ModBlocks.GOLDEN_SAPPHIRE_BLOCK.get());
 
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+        .add(ModBlocks.SOUND_BLOCK.get())
+        .add(ModBlocks.SAPPHIRE_DOOR.get())
+        .add(ModBlocks.SAPPHIRE_TRAPDOOR.get())
+        .add(ModBlocks.SAPPHIRE_WALL.get());
+
         //allows fences to connect to fences
         this.tag(BlockTags.FENCES)
         .add(ModBlocks.SAPPHIRE_FENCE.get());
@@ -58,6 +64,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         .add(ModBlocks.SAPPHIRE_FENCE_GATE.get());
         this.tag(BlockTags.WALLS)
         .add(ModBlocks.SAPPHIRE_WALL.get());
+
 
     }
 }
