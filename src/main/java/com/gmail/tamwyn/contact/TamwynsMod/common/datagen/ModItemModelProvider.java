@@ -15,8 +15,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
 
-    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, TamwynsMod.MOD_ID, existingFileHelper);
+    public ModItemModelProvider(PackOutput pOutput, ExistingFileHelper existingFileHelper) {
+        super(pOutput, TamwynsMod.MOD_ID, existingFileHelper);
     }
 
     @Override

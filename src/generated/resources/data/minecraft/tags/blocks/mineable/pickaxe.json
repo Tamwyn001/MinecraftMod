@@ -4,6 +4,15 @@
     "tamwynsmod:sapphire_block",
     "tamwynsmod:emerald_sapphire_block",
     "tamwynsmod:golden_sapphire_block",
-    "tamwynsmod:sound_block"
+    "tamwynsmod:sound_block",
+    "tamwynsmod:sapphire_button",
+    "tamwynsmod:sapphire_pressure_plate",
+    "tamwynsmod:sapphire_fence",
+    "tamwynsmod:sapphire_fence_gate",
+    "tamwynsmod:sapphire_wall",
+    "tamwynsmod:sapphire_stairs",
+    "tamwynsmod:sapphire_slab",
+    "tamwynsmod:sapphire_door",
+    "tamwynsmod:sapphire_trapdoor"
   ]
 }

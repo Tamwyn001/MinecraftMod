@@ -94,6 +94,51 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
             .save(pConsumer);
 
+            
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_AXE.get())
+            .pattern("##")
+            .pattern("#S")
+            .pattern(" S")
+            .define('#', ModItems.SAPPHIRE.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_PICKAXE.get())
+            .pattern("###")
+            .pattern(" S " )
+            .pattern(" S ")
+            .define('#', ModItems.SAPPHIRE.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_SHOVEL.get())
+            .pattern("#")
+            .pattern("S")
+            .pattern("S")
+            .define('#', ModItems.SAPPHIRE.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_SWORD.get())
+            .pattern("#")
+            .pattern("#")
+            .pattern("S")
+            .define('#', ModItems.SAPPHIRE.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+            
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_HOE.get())
+            .pattern("##")
+            .pattern("S ")
+            .pattern("S ")
+            .define('#', ModItems.SAPPHIRE.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_SLAB.get(), 6)
             .pattern("###")
@@ -121,6 +166,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .unlockedBy(getHasName(ModBlocks.SAPPHIRE_BLOCK.get()), has(ModBlocks.SAPPHIRE_BLOCK.get()))
             .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
             .save(pConsumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SAPPHIRE_BLOCK.get())
+            .pattern("QQQ")
+            .pattern("QQQ")
+            .pattern("QQQ")
+            .define('Q', ModItems.SAPPHIRE.get())
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
             .requires(ModBlocks.SAPPHIRE_BLOCK.get())

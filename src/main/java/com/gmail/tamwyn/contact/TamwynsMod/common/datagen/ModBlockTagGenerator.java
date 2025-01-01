@@ -35,7 +35,16 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
             ModBlocks.SAPPHIRE_BLOCK.get(),
             ModBlocks.EMERALD_SAPPHIRE_BLOCK.get(),
             ModBlocks.GOLDEN_SAPPHIRE_BLOCK.get(),
-            ModBlocks.SOUND_BLOCK.get()
+            ModBlocks.SOUND_BLOCK.get(),
+            ModBlocks.SAPPHIRE_BUTTON.get(),
+            ModBlocks.SAPPHIRE_PRESSURE_PLATE.get(),
+            ModBlocks.SAPPHIRE_FENCE.get(),
+            ModBlocks.SAPPHIRE_FENCE_GATE.get(),
+            ModBlocks.SAPPHIRE_WALL.get(),
+            ModBlocks.SAPPHIRE_STAIRS.get(),
+            ModBlocks.SAPPHIRE_SLAB.get(),
+            ModBlocks.SAPPHIRE_DOOR.get(),
+            ModBlocks.SAPPHIRE_TRAPDOOR.get()
         );
 
 

@@ -13,10 +13,10 @@ public class ModToolTier {
             2000, // Durability
             9.0F, // Speed
             4.0F, // Damage
-            22, // Enchantablitiy
+            25, // Enchantablitiy
             ModTags.Blocks.NEEDS_SAPPHIRE_TOOL, // Tag for blocks that the tier can mine
             () -> Ingredient.of(ModItems.SAPPHIRE.get()), // Repair material
-            BlockTags.MINEABLE_WITH_PICKAXE // Tag for incorrect blocks (i.e., blocks this tier can't mine)
+            BlockTags.INCORRECT_FOR_DIAMOND_TOOL // Tag for incorrect blocks (i.e., blocks this tier can't mine)
 
     );
 

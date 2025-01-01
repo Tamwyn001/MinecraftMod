@@ -1,7 +1,7 @@
-// 1.20.6	2024-12-31T19:16:23.8835595	Tags for minecraft:block mod id tamwynsmod
+// 1.20.6	2025-01-01T11:31:32.6687235	Tags for minecraft:block mod id tamwynsmod
 cb505e41c78289f6556e3cec571f11918e6cc3b0 data/minecraft/tags/blocks/fences.json
 5ef299085e4292683b04f5c922376420bb0e3aee data/minecraft/tags/blocks/fence_gates.json
-f98153b98f3b2b03d123b1b5157fae33ee44bbb0 data/minecraft/tags/blocks/mineable/pickaxe.json
+a35291bb0b5a595a57fdecf51fdf13d6c6629e20 data/minecraft/tags/blocks/mineable/pickaxe.json
 056e926f74798706de9bbcdd2a7277dce6a635f0 data/minecraft/tags/blocks/needs_diamond_tool.json
 c6f0d460f7cb545a779d2e1109b17cddf1abf591 data/minecraft/tags/blocks/needs_iron_tool.json
 4d3c6fcca4b50c420dfb6f28b2fb01b6e00ec1aa data/minecraft/tags/blocks/walls.json
