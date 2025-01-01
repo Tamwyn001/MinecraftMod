@@ -10,6 +10,11 @@
     "item.tamwynsmod.sapphire_axe": "Sapphire Axe",
     "item.tamwynsmod.sapphire_shovel": "Sapphire Shovel",
     "item.tamwynsmod.sapphire_hoe": "Sapphire Hoe",
+
+    "item.tamwynsmod.sapphire_helmet": "Sapphire Helmet",
+    "item.tamwynsmod.sapphire_chestplate": "Sapphire Chestplate",
+    "item.tamwynsmod.sapphire_leggings": "Sapphire Leggings",
+    "item.tamwynsmod.sapphire_boots": "Sapphire Boots",
     
 
     "item.tamwynsmod.metal_detector.tooltip" : "Use it on the ground to detect ore!",

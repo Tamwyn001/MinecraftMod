@@ -5,6 +5,7 @@ import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.FuelItem;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.MetalDetectorItem;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.ModToolTier;
 
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
@@ -46,15 +47,30 @@ public class ModItems {
     () -> new ShovelItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(ShovelItem.createAttributes(ModToolTier.SAPPHIRE, 6, -2.4F))));
 
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
-    () -> new HoeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTier.SAPPHIRE, 10, -5.4F))));
+    () -> new HoeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(HoeItem.createAttributes(ModToolTier.SAPPHIRE, 10, 5.4F))));
 
     public static final RegistryObject<Item> SAPPHIRE_AXE = ITEMS.register("sapphire_axe",
-    () -> new AxeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTier.SAPPHIRE, 20, -1.4F))));
+    () -> new AxeItem(ModToolTier.SAPPHIRE, new Item.Properties().attributes(AxeItem.createAttributes(ModToolTier.SAPPHIRE, 20, -5.4F))));
 
 
 
     public static final RegistryObject<Item> FIRE_FLOWER = ITEMS.register("fire_flower",
     () -> new FuelItem(new Item.Properties(), 1300, "item.tamwynsmod.fire_flower.tooltip")); // 65 seconds, charcoal is 80 seconds
+
+
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+    () -> new ArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.HELMET, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+    () -> new ArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+    () -> new ArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.LEGGINGS, new Item.Properties()));
+
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+    () -> new ArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
 
 
     public static void register(IEventBus eventBus) {

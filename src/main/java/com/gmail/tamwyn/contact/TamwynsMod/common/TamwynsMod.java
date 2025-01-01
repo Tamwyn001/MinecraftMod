@@ -1,6 +1,7 @@
 package com.gmail.tamwyn.contact.TamwynsMod.common;
 
  
+import com.gmail.tamwyn.contact.TamwynsMod.common.item.ModArmorsMaterials;
 //mod clases
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.ModCreativeModTab;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.ModItems;
@@ -37,6 +38,7 @@ public class TamwynsMod
       ModCreativeModTab.register(modEventBus);
       ModItems.register(modEventBus);
       ModBlocks.register(modEventBus);
+      ModArmorsMaterials.register(modEventBus);
 
       modEventBus.addListener(this::commonSetup);
 

@@ -31,6 +31,8 @@ public class ModCreativeModTab {
                 pOutput.accept(ModItems.SAPPHIRE_AXE.get());
 
                 pOutput.accept(ModItems.PASSION_FRUIT.get());
+
+                pOutput.accept(ModItems.PASSION_FRUIT.get());
                 pOutput.accept(ModItems.FIRE_FLOWER.get());
 
                 pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
