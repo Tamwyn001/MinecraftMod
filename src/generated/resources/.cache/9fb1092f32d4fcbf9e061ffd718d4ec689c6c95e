@@ -1,4 +1,4 @@
-// 1.20.6	2025-01-01T11:31:32.6687235	Recipes
+// 1.20.6	2025-01-01T11:40:09.1441101	Recipes
 953fa2307bda4525b93a6d8dc87de05a0717d92e data/minecraft/advancements/recipes/misc/sapphire_slab_from_sapphire_block_stonecutting.json
 573f3d0a37a8e291510300c4d7bddd84738a3ae1 data/minecraft/advancements/recipes/misc/sapphire_stairs_from_sapphire_block_stonecutting.json
 914320a0bb6d02b751bb9e0cffbd94bc294ba8c2 data/minecraft/advancements/recipes/misc/sapphire_wall_from_sapphire_block_stonecutting.json
@@ -10,6 +10,7 @@ ce7c81bb21ceee22931c62deb73db7fd353206ed data/minecraft/recipes/sapphire_wall_fr
 631d100502987c5bfe8b1a3c4150c630f701a958 data/tamwynsmod/advancements/recipes/misc/metal_detector.json
 9eae9501d30262eaa49f977c7cc4cfb3695a80df data/tamwynsmod/advancements/recipes/misc/sapphire.json
 8376a7e87a421441be7ce81e923aab35c9a1fd2d data/tamwynsmod/advancements/recipes/misc/sapphire_axe.json
+c7fb09f473ca5f39df17d5f83925334f3aad128d data/tamwynsmod/advancements/recipes/misc/sapphire_block.json
 b124e432a45bedd08e2afdec9c3b8e9880f4f0a4 data/tamwynsmod/advancements/recipes/misc/sapphire_door.json
 a331379761e0d3e98d8a8a1827952eff4c2656ad data/tamwynsmod/advancements/recipes/misc/sapphire_fence.json
 17381a805ccf7f186f8138a45d15a6033fa34969 data/tamwynsmod/advancements/recipes/misc/sapphire_fence_gate.json
@@ -30,6 +31,7 @@ d7dbfbc757c0b8a4597f4fa4677e6ed623db173f data/tamwynsmod/advancements/recipes/mi
 2d71fb5c43dd0f9be7af9a02d52eb9cb5b823255 data/tamwynsmod/recipes/metal_detector.json
 bb5e628941dd5c3500540e6ee23981a359712a08 data/tamwynsmod/recipes/sapphire.json
 8fca4933f0bfced788460ca1e57be7c4d63c94f5 data/tamwynsmod/recipes/sapphire_axe.json
+e40e9b747f3abac3b659a26a0e1cde055bd952c6 data/tamwynsmod/recipes/sapphire_block.json
 d91ab343f06abb34f6612f66e92df8e74a578a39 data/tamwynsmod/recipes/sapphire_door.json
 a062c1dcfd4fa2ef2aa1226a07f57008513b5eda data/tamwynsmod/recipes/sapphire_fence.json
 991101e2a1fc9129821dbfc91266459b984fd898 data/tamwynsmod/recipes/sapphire_fence_gate.json
