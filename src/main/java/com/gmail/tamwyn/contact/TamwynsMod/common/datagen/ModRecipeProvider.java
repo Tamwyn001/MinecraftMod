@@ -174,7 +174,35 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
             .save(pConsumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_CHESTPLATE.get())
+            .pattern("Q Q")
+            .pattern("QQQ")
+            .pattern("QQQ")
+            .define('Q', ModItems.SAPPHIRE.get())
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_LEGGINGS.get())
+            .pattern("QQQ")
+            .pattern("Q Q")
+            .pattern("Q Q")
+            .define('Q', ModItems.SAPPHIRE.get())
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_BOOTS.get())
+            .pattern("Q Q")
+            .pattern("Q Q")
+            .define('Q', ModItems.SAPPHIRE.get())
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SAPPHIRE_HELMET.get())
+            .pattern("QQQ")
+            .pattern("Q Q")
+            .define('Q', ModItems.SAPPHIRE.get())
+            .unlockedBy(getHasName(ModItems.SAPPHIRE.get()), has(ModItems.SAPPHIRE.get()))
+            .save(pConsumer);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
             .requires(ModBlocks.SAPPHIRE_BLOCK.get())

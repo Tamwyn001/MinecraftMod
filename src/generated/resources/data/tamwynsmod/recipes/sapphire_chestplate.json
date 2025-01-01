@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "tamwynsmod:sapphire"
+    }
+  },
+  "pattern": [
+    "Q Q",
+    "QQQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tamwynsmod:sapphire_chestplate"
+  }
+}

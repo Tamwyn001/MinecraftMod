@@ -1,6 +1,5 @@
-package com.gmail.tamwyn.contact.TamwynsMod.common.item.custom;
+package com.gmail.tamwyn.contact.TamwynsMod.common.item;
 
-import com.gmail.tamwyn.contact.TamwynsMod.common.item.ModItems;
 import com.gmail.tamwyn.contact.TamwynsMod.common.util.ModTags;
 
 import net.minecraft.tags.BlockTags;

@@ -3,7 +3,7 @@ package com.gmail.tamwyn.contact.TamwynsMod.common.item;
 import com.gmail.tamwyn.contact.TamwynsMod.common.TamwynsMod;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.FuelItem;
 import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.MetalDetectorItem;
-import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.ModToolTier;
+import com.gmail.tamwyn.contact.TamwynsMod.common.item.custom.ModArmorItem;
 
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
@@ -59,8 +59,8 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-    () -> new ArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.HELMET, new Item.Properties()));
-
+    () -> new ModArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.HELMET, new Item.Properties()));
+    //until now only checks if player has full amrmor to apply an effect, it is sufficient to use it once
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
     () -> new ArmorItem(ModArmorsMaterials.getHolder(ModArmorsMaterials.SAPPHIRE_MATERIAL), ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 

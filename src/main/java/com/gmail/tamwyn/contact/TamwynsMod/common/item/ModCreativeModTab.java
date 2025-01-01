@@ -30,6 +30,11 @@ public class ModCreativeModTab {
                 pOutput.accept(ModItems.SAPPHIRE_HOE.get());
                 pOutput.accept(ModItems.SAPPHIRE_AXE.get());
 
+                pOutput.accept(ModItems.SAPPHIRE_HELMET.get());
+                pOutput.accept(ModItems.SAPPHIRE_CHESTPLATE.get());
+                pOutput.accept(ModItems.SAPPHIRE_LEGGINGS.get());
+                pOutput.accept(ModItems.SAPPHIRE_BOOTS.get());
+
                 pOutput.accept(ModItems.PASSION_FRUIT.get());
 
                 pOutput.accept(ModItems.PASSION_FRUIT.get());
