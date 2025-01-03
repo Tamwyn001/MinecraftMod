@@ -1,0 +1,14 @@
+{
+  "type": "tamwynsmod:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:grass_block",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.5,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "tamwynsmod:fire_flower"
+}

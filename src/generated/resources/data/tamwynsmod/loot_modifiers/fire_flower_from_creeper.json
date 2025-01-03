@@ -1,0 +1,10 @@
+{
+  "type": "tamwynsmod:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    }
+  ],
+  "item": "tamwynsmod:fire_flower"
+}

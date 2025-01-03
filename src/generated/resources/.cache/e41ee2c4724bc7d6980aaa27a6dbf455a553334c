@@ -1,0 +1,5 @@
+// 1.20.6	2025-01-04T00:32:28.3570904	Global Loot Modifiers : tamwynsmod
+316889d32225052f9a7ad3de21be3dce4d0eec24 data/forge/loot_modifiers/global_loot_modifiers.json
+31052efa0c567bc84e619b37cdddd375bca4bd94 data/tamwynsmod/loot_modifiers/fire_flower_from_creeper.json
+05aba9d62fee0a6fb5969f324218ad26377bfc38 data/tamwynsmod/loot_modifiers/fire_flower_from_grass.json
+3a85154afc985a8486838fab0f4591e91711d7b7 data/tamwynsmod/loot_modifiers/metal_detector_from_jungle_temple.json
